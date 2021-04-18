@@ -42,4 +42,6 @@ array.indexOf(false);
 array.splice(5, 1);
 
 let array2 = ["Farhad", "Junior", "Kevin", "Loic", "Alexis", "Oussama", "Issam", "Tania", "Mohammed", "William", "Andy", "Mihai", "Charles", "Yassin", "Ilyas", "Dorian", "Anthony", "Alain", "Gauthier", "Bonzaï"]
-console.log(Math.floor(Math.random() * array2.length));
+// console.log(Math.floor(Math.random() * array2.length));
+// let random = Math.floor(Math.random() * array2.length);
+console.log(array2[Math.floor(Math.random() * array2.length)]);
